@@ -1,0 +1,47 @@
+  header {
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  nav ul li:hover {
+    color: rgb(120, 120, 126);
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  .section.active {
+    display: block;
+  }
+  
+  .section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .menu-button {
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .toplogoigtech {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }

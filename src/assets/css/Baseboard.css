@@ -1,0 +1,42 @@
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .baselogoigtech {
+    width: 150px;
+    height: auto;
+  }
+  
+  .contact-info h2,
+  .adress-info h2,
+  .social-info h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p,
+  .adress-info p {
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+  
+  .social-info a {
+    margin-right: 20px;
+  }
+  
+  .social-info a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-info img {
+    width: 30px;
+    height: auto;
+  }

@@ -1,0 +1,84 @@
+.services-container {
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 16px;
+  top: 0;
+  left: 50%;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.intro h3 {
+  font-size: 40px;
+}
+
+.p {
+  margin-bottom: 10px;
+}
+
+.services-cards {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.card {
+  display: none;
+  text-align: center;
+  width: 600px;
+  height: 500px;
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 90%;
+  height: auto;
+}
+
+.card.active {
+  display: block;
+}
+
+.arrow-btn {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 55%;
+  transform: translateY(+70%); /* Move os botões de navegação para cima metade da altura deles mesmos para centralizá-los completamente */
+}
+
+.arrow-btn.left {
+  left: 30px;
+}
+
+.arrow-btn.right {
+  right: 30px;
+}
+
+.arrow-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.arrow-btn button:hover {
+  color: #555;
+}
